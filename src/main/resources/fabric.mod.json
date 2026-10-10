@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "starterxmod",
+  "version": "${version}",
+  "name": "Starter X Mod",
+  "description": "A simple Fabric client-side starter mod with a GUI opened by X and a visible console.",
+  "authors": [
+    "Zynix"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Zynix-super-dev/fabric-bot-console-mod"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.zynix.starter.StarterMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
